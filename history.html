@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/slideshow.css">
+<link rel="icon" type="image/x-icon" href="Resources/steamlogo.png">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam Deck Wiki</title>
+    <script src="js/goUp.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Steam Deck Wiki</h1>
+        <div class="navBar">
+            <a class="greenHome" href="home.html">Home</a>
+            <a href="history.html">History</a>
+            <a href="hardware.html">Hardware</a>
+            <a href="software.html">Software</a>
+        </div>
+    </header>
+
+    <div class="right-sidebar">
+        <a href="https://www.pcmag.com/"><img src="Resources/pcmag ad.svg"></a>
+        <a href="https://www.w3schools.com/"><img src="Resources/w3 ad.png"></a>
+        <a href="https://www.burgerking.co.uk/"><img src="Resources/burgerking-ad.png"></a>
+    </div>
+
+    <div class="left-sidebar">
+        <div id="other-resources">
+            <h2>Other Resources</h2>
+            <br>
+            <a href="https://help.steampowered.com/en/faqs/view/6121-eccd-d643-baa8">Running Windows On Steam Deck</a>
+            <br>
+            <a href="https://www.protondb.com/">Game performance on Steam Deck</a>
+            <br>
+            <a href="https://www.reddit.com/r/SteamDeck/">Steam Deck community</a>
+            <br>
+            <a href="https://store.steampowered.com/">Buy games</a>
+            <br>
+            <a href="https://www.steamdeck.com/en/news">Steam Deck News</a>
+            <br>
+            <a href="https://twitter.com/OnDeck?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">OfficialTwitter</a>
+            <br>
+            <a href="https://www.pcmag.com/reviews/valve-steam-deck">PC Mag Review</a>
+        </div>
+    </div>
+
+    <div class="articlespread">
+        <h2 class="page-title">History</h2>
+        <br>
+        <h4>Previous attempts</h4>
+        <p>Valve's first foray into hardware was with the Steam Machine, a computer specification based on the
+            Linux-derived SteamOS that could be adopted by any computer manufacturer to make systems optimized for
+            running Steam and games from it. Introduced in 2015, the platform did not sell well and Valve quietly pulled
+            back on it by April 2018, but stated they remained committed to providing some type of open-hardware
+            platform. Steam Deck designer Scott Dalton said "there was always kind of this classic chicken and egg
+            problem with the Steam Machine", as it required the adoption of Linux by both gamers and game developers to
+            reach a critical interest in the machines to draw manufacturers in making them. The lack of Linux game
+            availability during the lifetime of Steam Machines led Valve to invest development into Proton, a
+            Linux-based compatibility layer to allow most Windows–based applications and games to be run on Linux
+            without modification.
+        </p>
+
+
+        <div class="slideshow">
+            <div class="slides">
+                <img class="slideshowSlide" src="Resources/slideshow/slide1.jpg">
+            </div>
+            <div class="slides">
+                <img class="slideshowSlide" src="Resources/slideshow/slide2.jpg">
+            </div>
+            <div class="slides">
+                <img class="slideshowSlide" src="Resources/slideshow/slide3.jpg">
+            </div>
+            <div class="slides">
+                <img class="slideshowSlide" src="Resources/slideshow/slide4.avif">
+            </div>
+        </div>
+        <br>
+        <div id="circleButtons-list">
+            <div class="circleButtons" onclick="displaySlide(1)"></div>
+            <div class="circleButtons" onclick="displaySlide(2)"></div>
+            <div class="circleButtons" onclick="displaySlide(3)"></div>
+            <div class="circleButtons" onclick="displaySlide(4)"></div>
+        </div>
+
+
+        <p>Other factors from the Steam Machine line worked their way into the conception of the Steam Deck. The Steam
+            Controller was developed by Valve as part of the Steam Machine line. Some of the early prototypes of the
+            controller included a small LCD screen within the middle of the controller which could be programmed as a
+            second screen alongside the game that the user was playing. One idea from this prototype was to include the
+            Steam Link, a hardware device capable of streaming game content from a computer running Steam to a different
+            monitor, here routing that output to the small LCD on the controller. This was later considered by Valve a
+            very early concept behind the Steam Deck. Further, their experience with trying to convince other
+            manufacturers to produce Steam Machines led Valve to realize that it was better to develop all their
+            hardware internally. Dalton said, "More and more it just became kind of clear, the more of this we are doing
+            internally, the more we can kind of make a complete package."
+        </p>
+        <br>
+        <h4>Announcement</h4>
+        <p>Rumors that Valve was working on a portable gaming unit had emerged in May 2021, based on updates made
+            within the Steam code pointing towards a new "SteamPal" device, and comments made by Gabe Newell related to
+            Valve developing games for consoles. Ars Technica had been able to confirm that new hardware was in
+            development at Valve.
+        </p>
+
+
+        <p>Valve revealed the Steam Deck on July 15, 2021. The Deck, existing in three different models based on
+            internal storage options, was shipped starting in February 2022 in North America and Europe, with other
+            regions to follow throughout the year. However, due to its popularity, some pre-order purchasers were
+            informed that later shipments of the 64 GB model and 256 GB NVMe models would be in Q2 2022 and the 512 GB
+            NVMe model by Q3 2022. Valve informed pre-purchasers in November 2021 that due to the ongoing global chip
+            shortage, the device would fail to ship by December and instead would ship in February 2022, retaining the
+            same order for delivery based on pre-order placement.
+        </p>
+        <br>
+        <h4>Valves approach</h4>
+        <p>Valve's CEO, Gabe Newell, said of the Steam Deck's approach, "As a gamer, this is a product I've always
+            wanted. And as a game developer, it's the mobile device I've always wanted for our partners. According
+            to Newell, they wanted to be "very aggressive" on the release and pricing strategy as they considered the
+            mobile market as their primary competitor for the Deck. However, their focus was on the unit's performance;
+            Newell stated, "But the first thing was the performance and the experience, [that] was the biggest and most
+            fundamental constraint that was driving this."Newell recognized that the base pricing was somewhat lower
+            than expected and "painful", but necessary to meet the expectation of gamers that would want the Deck.
+            Newell continued that he believed this was a new product category of personal computer hardware that Valve
+            and other computer manufacturers would continue to participate in if the Steam Deck proved successful, and
+            thus it was necessary to keep the unit's price point reasonable to demonstrate viability. The openness of
+            the system was also a key feature according to Newell, as that is a defining "superpower" of the personal
+            computer space over typical console systems. Newell did not want to have any limitations on what the end
+            user could do with the hardware, such as installing alternate non-Steam software on it.
+        </p>
+        <p>Pre-orders for the Steam Deck were opened a day after its announcement. Pre-orders were limited to those
+            with Steam accounts opened before June 2021, to prevent resellers from depleting stock and making the device
+            more difficult to purchase. First-day pre-order reservations through the Steam storefront briefly crashed
+            the servers due to the demand. By September 2021, development kits for the Steam Deck were shipping to
+            developers. The device was released on February 25, 2022.
+        </p>
+        <br>
+        
+        <h4>Release in other regions</h4>
+        <p>For the planned release in Asian regions, Valve worked with Komodo to help with local production,
+            localization, and distribution support.
+        </p>
+        <iframe id="TGSvideo" src="https://www.youtube.com/embed/3EtynKBan2Y" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <p>By June 2022, Valve stated they were able to double the number Steam Decks shipping out each week, helping
+            to meet the initial reservations, and by August 2022, Valve's production was outpacing expectations,
+            allowing them to send out Steam Decks to consumers that were originally anticipated to ship in the final
+            quarter of the year. Valve was able to fulfill all reservations by October 2022, opening the Steam Deck
+            to purchase without reservation, though Valve tentatively will return to a reservation system should demand
+            be too high.
+        </p>
+
+    </div>
+
+    <footer>
+        <p>Steam Deck Wiki is a demonstration website developed as an educational exercise and that it incorporates text
+            and media from Wikipedia & Steam under the creative commons licence. </p>
+    </footer>
+
+    <button onclick="scrollToTop()" id="goUpButton" title="Go to top">Top</button>
+</body>
+
+<script>
+    displaySlide(1);
+
+    function displaySlide(slideToDisplay) {
+        let slides = document.getElementsByClassName("slides");
+
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[slideToDisplay - 1].style.display = "block";
+    }
+</script>
+
+</html>
